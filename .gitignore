@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (Best to keep these off GitHub to save space)
+*.zip
+*.arff
+ECG5000/
+
+# Environment and Virtual Envs
+venv/
+env/
+.env
+.venv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large Model weights (if you save them later)
+*.h5
+*.tflite
+*.pth
